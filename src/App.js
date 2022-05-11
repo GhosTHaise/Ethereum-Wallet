@@ -6,7 +6,7 @@ import './App.css';
 
 function App() {
     //Mes States
-  const walletAddress = '0xa94716dAD0457170ab25083afC0809BD311aC9A4';
+  const walletAddress = 'Replace this';
   const [Balance,setBalance] = useState(0);
   const [AmountSend,setAmountSend] = useState();
   const [AmountWithDraw,setAmountWithDraw] = useState();
