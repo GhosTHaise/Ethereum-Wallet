@@ -13,6 +13,10 @@ npx hardhat node
 node scripts/sample-script.js
 npx hardhat help
 ```
+First you nedd to install all dependacies :
+```shell
+npm install
+```
 
 You can launch the project locally by :
 ```shell
