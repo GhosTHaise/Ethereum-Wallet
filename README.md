@@ -14,7 +14,7 @@ node scripts/sample-script.js
 npx hardhat help
 ```
 
-You can launch the project localy by :
+You can launch the project locally by :
 ```shell
 npx hardhat node
 npx hardhat run scripts/Deploy.js --network localhost
