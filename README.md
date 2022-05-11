@@ -13,7 +13,7 @@ npx hardhat node
 node scripts/sample-script.js
 npx hardhat help
 ```
-First you nedd to install all dependacies :
+First you need to install all dependancies :
 ```shell
 npm install
 ```
