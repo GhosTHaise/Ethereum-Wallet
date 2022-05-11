@@ -13,3 +13,12 @@ npx hardhat node
 node scripts/sample-script.js
 npx hardhat help
 ```
+
+You can launch the project localy by :
+```shell
+npx hardhat node
+npx hardhat run scripts/Deploy.js --network localhost
+```
+Then change :
+<s>walletAddress</s> from App.js by the contract address in your terminal cmd.
+
