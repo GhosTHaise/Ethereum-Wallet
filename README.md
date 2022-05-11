@@ -26,3 +26,7 @@ npx hardhat run scripts/Deploy.js --network localhost
 Then change :
 <s>walletAddress</s> from App.js by the contract address in your terminal cmd.
 
+Now Open the project in your localhost : 
+```shell
+npm start
+```
