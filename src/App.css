@@ -1,0 +1,130 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box ;
+}
+html{
+  font-size: 16px;
+}
+body{
+  font-family: 'Roboto',sans-serif;
+  background: #393E45;
+  color: #D1D5DE;
+}
+.App{
+  text-align: center ;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.container{
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+.logo{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logo i{
+  width: 5rem;
+  height: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #D1D5DE;
+  color: #393E45;
+  font-size: 3rem;
+  border-radius: 50%;
+  text-align: center;
+  margin: 0;
+}
+
+h2{
+  margin-top: 2rem;
+  font-weight: 400;
+  font-size: 3rem;
+}
+
+h2 .eth{
+  font-weight: 300;
+  text-transform: uppercase;
+  font-size: 2rem;
+}
+h3{
+  margin-bottom: 1rem;
+}
+.wallet_flex{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 2rem;
+}
+.walletG ,.walletD{
+     width: 50%;
+     min-width: 320px;
+}
+input{
+  border: 0;
+  height: 2.5rem;
+  padding: 0 1rem;
+  outline: none;
+  margin-bottom: 2rem;
+}
+.walletG input{
+  border-radius: 15px 0 0 15px;
+}
+.walletD input{
+  border-radius: 0 15px 15px 0 ;
+}
+button{
+  height: 2.5rem;
+  border: 0;
+  padding: 0 1rem;
+  background: #D1D5DE;
+  color: #393E45;
+  cursor: pointer;
+}
+.walletG button{
+  border-radius: 0 5px 5px 0;
+}
+.walletD button{
+  border-radius: 5px 0 0 5px;
+}
+.error,.success{
+  left: 50%;
+  transform: translateX(-50%);
+  padding: .9rem;
+  position: fixed;
+  top : 2rem;
+  border-radius: 10px;
+}
+.error{
+  background: rgba(247, 20, 20, 0.589) ;
+  color: #D1D5DE;
+}
+.success{
+  background: #53814D;
+  color: #D1D5DE;
+}
+@media screen and (max-width : 700px) {
+  .wallet_flex{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .error,.success{
+    width: 100vw;
+    top: 0;
+  }
+  .walletD input{
+    border-radius:  0 5px 5px 0 ;
+  }
+  .walletD button{
+    border-radius: 15px 0  0 15px ;
+  }
+}
